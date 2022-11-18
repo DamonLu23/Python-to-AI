@@ -283,10 +283,10 @@ del d          # 删除字典d
 |`dict.setdefault(key,default=None)`|和`get()`类似, 但如果`key`不存在于字典中，将会添加`key`并将`value`设为`default`|
 |`dict.update(dict2)`|把字典`dict2`的`key`/`value`对更新到`dict`里|
 |`dict.values()`|返回一个包含所有`value`的列表|
-|`pop(Key[,default])`|删除字典`key`所对应的值，返回被删除的`value`。|
-|`popitem()`|返回并删除字典中的最后一对`key`和`value`。|
+|`pop(Key[,default])`|删除字典`key`所对应的值，返回被删除的`value`|
+|`popitem()`|返回并删除字典中的最后一对`key`和`value`|
 
-#### 6. list 列表
+#### 6. set 集合
 
 
 
