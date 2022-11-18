@@ -130,7 +130,9 @@ f'{str1} world'
 | `swapcase()`                               | 将字符串中大写转换为小写，小写转换为大写                                                                         |
 | `upper()`                                  | 转换字符串中的小写字母为大写                                                                               |
 | `zfill(width)`                             | 返回长度为 `width` 的字符串，原字符串右对齐，前面填充`0`                                                           |
-| `isdecimal()`                              | 检查字符串是否只包含十进制字符，如果是返回 `true`，否则返回 `false`                                                    |
+| `isdecimal()`                              | 检查字符串是否只包含十进制字符，如果是返回 `true`，否则返回 `false`                                         
+|
+
 
 #### 3. list 列表
 
@@ -287,6 +289,34 @@ del d          # 删除字典d
 |`popitem()`|返回并删除字典中的最后一对`key`和`value`|
 
 #### 6. set 集合
+
+集合是一个无序的不重复元素序列
+
+#### 集合创建
+
+集合用`{}`或者`set()`创建。空集合必须用`set()`创建。
+
+#### 集合常用函数
+
+|函数|描述|
+|----|----|
+|`add()`|集合添加元素|
+|`clear()`|移除集合中所有元素|
+|`copy()`|复制一个集合|
+|`set1.difference(set2)`|返回`set1 - set2`的差集|
+|`set1.difference_update(set2)`|在`set1`中删除`set1 - set2`的差集后|
+|`discard()`|删除集合中指定的元素|
+|`intersection()`|返回集合的交集|
+|`intersection_update()`|返回集合的交集|
+|`isdisjoint()`|判断两个集合是否包含相同的元素，如果没有返回`True`，否则返回 `False`|
+|`issubset()`|判断指定集合是否为该方法参数集合的子集|
+|`issuperset()`|判断该方法的参数集合是否为指定集合的子集|
+|`pop()`|随机移除一个元素|
+|`remove()`|移除指定元素|
+|`symmetric_difference()`|返回两个集合中不重复的元素集合|
+|`symmetric_difference_update()`|移除当前集合中在另外一个指定集合相同的元素，并将另外一个指定集合中不同的元素插入到当前集合中(Union - intersection)|
+|`union()`|返回两个集合的并集|
+|`update()`|给集合添加元素|
 
 
 
